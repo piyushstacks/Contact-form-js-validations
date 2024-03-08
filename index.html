@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form validations</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <form id="cusform" onsubmit="return validateForm()">
+            <h1>Contact Us:</h1>
+        <div class="form" id="">
+            <label for="name">Name*</label>
+            <input type="text" name="Flname" id="Flname"><br>
+            <i id="fullnameErr" class="redError">Please Write Full Name Properly</i><br>
+            <label for="email">Email*</label>
+            <input type="text" name="Email" id="Email"><br>
+            <i id="emailErr" class="redError">Please Write Email Properly</i><br>
+            <label for="textbox">Message*</label>
+            <textarea name="textbox" id="textbox" cols="30" rows="5" style="resize: none"></textarea><br>
+            <i id="msgErr" class="redError">Please Write Message Properly</i><br>
+            <input type="submit" value="Submit" class="btn">
+        </div>
+        <h3 id="submitted">form Submitted!</h3>
+    </div>
+   
+</form>
+    <script src="script.js"></script>
+</body>
+</html>
