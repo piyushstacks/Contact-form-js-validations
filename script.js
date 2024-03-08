@@ -96,7 +96,6 @@ function validateEmailfunc() {
 }
 email.addEventListener('input', validateEmailfunc);
 
-
 function validateForm() {
     let valid = true;
     return valid;

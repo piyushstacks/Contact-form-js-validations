@@ -52,7 +52,6 @@ form label{
     color: rgb(0, 0, 0);
     cursor: pointer;
 }
-
 #submitted{
     display: none;
     color: rgb(255, 0, 0);
